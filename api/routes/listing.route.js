@@ -10,7 +10,6 @@ router.post("/update/:id", verifyToken, updateListing);
 router.get("/get/:id", getListing);
 router.get("/get", getListings);
 router.get("/pending", getPendingListings);
-
 router.put('/approve/:id',approveListing)
 router.post('/reject/:id',rejectListing)
 
